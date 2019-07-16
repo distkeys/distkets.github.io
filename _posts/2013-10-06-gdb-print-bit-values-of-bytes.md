@@ -3,7 +3,8 @@ layout: post
 title: "GDB - Print Bit values of bytes"
 date: 2013-10-06 21:06
 comments: true
-categories: debug
+categories: Debug
+tags: '2013'
 ---
 {% include toc %}
 

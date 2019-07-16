@@ -25,7 +25,8 @@ logo: "/images/logo.jpg"
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/so-simple-theme"
+theme: "jekyll-theme-so-simple"
+#remote_theme: "mmistakes/so-simple-theme"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
