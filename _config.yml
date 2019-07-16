@@ -18,7 +18,7 @@ title: Everyday Learnings...
 email: distkeys@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://distkeys.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -29,9 +29,9 @@ markdown: kramdown
 theme: jekyll-theme-so-simple
 plugins:
   - jekyll-feed
-  - jekyll-archives
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-seo-tag
 
 locale: "en-us"
 date_format: "%Y-%m-%d"
@@ -47,9 +47,6 @@ google_fonts:
 
 paginate: 10  # amount of posts to show per page
 paginate_path: /page:num/
-
-layout: home
-paginate: true
 
 search_full_content: true
 
