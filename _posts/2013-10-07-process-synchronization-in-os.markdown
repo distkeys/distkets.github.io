@@ -253,7 +253,7 @@ bool Lock::isHeldByCurrentThread() {
 {% endhighlight %}
 
 ### Concurrent Programming Construct
-Locks can only solve mutual exclusion problem, they can not solve sequencing problem. We need another mechanism Monitors
+Locks can only solve mutual exclusion problem, they can not solve sequencing problem. We need another mechanism i.e. Monitors
 
 Monitors is a programming language construct that supports both data access synchronization and control synchronization.
 
@@ -261,7 +261,7 @@ Monitors have 3 parts
 
 1. Lock for mutual exclusion
 2. 1 or more condition variables for sequencing
-3. Monitor variables for make sequencing decisions -> Shared data
+3. Monitor variables to make sequencing decisions i.e. Shared data
 
 ### Condition Variables
 Each condition variable is only associated with one lock.
