@@ -16,11 +16,12 @@
 
 title: Everyday Learnings...
 email: distkeys@outlook.com
-description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://distkeys.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+disqus:
+    shortname: vaibhavjian
 
+google_analytics: UA-44705857-1
 logo: "/images/logo.jpg"
 
 # Build settings
