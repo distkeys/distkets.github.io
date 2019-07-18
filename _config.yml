@@ -19,7 +19,7 @@ email: distkeys@outlook.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://distkeys.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 disqus:
-    shortname: vaibhavjian
+    shortname: distkeys-com
 
 google_analytics: UA-44705857-1
 logo: "/images/logo.jpg"
