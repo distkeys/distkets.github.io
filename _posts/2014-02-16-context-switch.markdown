@@ -39,7 +39,7 @@ RPC communication models aim to achieve the results of a regular procedure call 
 •    Server Stub and RPC Communication Package – In Kernel Space<br>
 •    Server – In user space on remote machine<br>
 
-User makes an RPC call like a regular procedure call which result in calling User stub and later the RPC communication package which is called the RPC runtime often. This process involves the context switching, and the kernel takes care of RPC request using user stub and RPC runtime for marshaling data and sending to the receiver.
+User makes an RPC call like a regular procedure call which result in calling User stub and later the RPC communication package which is often called the RPC runtime. This process involves the context switching, and the kernel takes care of RPC request using user stub and RPC runtime for marshaling data and sending to the receiver.
 
 At the receiving end, the receiving and unmarshal of a data packet is done by RPC runtime and server stub. The data is sent to the required user process for execution. This is the point of context switch at the receiving side. The same procedure happens while sending the result back to the sender for the RPC request. The whole process involves the four context switches. Four context switches are because the interrupt handler receives the incoming packets and delivers to the correct process. It can be reduced to even two context switches if an incoming message can be delivered directly to the correct process without the intervention of interrupt handler.
 
@@ -48,11 +48,11 @@ Binding is the process of knowing the machine names and location which sender ma
 
 ### Lightweight Remote Procedure Call
 
-This communication model focuses on communication between protection domains on the same machine. In a high-level view, LRPC client makes a procedure call to server procedure by kernel trap, which leads to a context switch. Kernel processes the request and when the called procedure completes result is returned to the client from the kernel which again leads to the context switch.<br>
+This communication model focuses on communication between protected domains on the same machine. In a high-level view, LRPC client makes a procedure call to server procedure by kernel trap, which leads to a context switch. Kernel processes the request and when the called procedure completes result is returned to the client from the kernel which again leads to the context switch.<br>
 
 Moving to fine granularity of LRPC, during the binding process, the client makes import interface request via kernel. The kernel sends the request to server’s waiting clerk, and in response, waiting clerk sends a response to the kernel with information. The kernel then return the binding Object to the client back, and the whole process requires four context switches.<br>
 
-LRPC minimize the use of shared data structures which internally implements its locks, so no explicit lock is required for synchronization. LRPC implements the optimization by reducing the number of context switches by caching domains on idle processors. The kernel looks for the idle processor for the client request, and if found one the request is routed to the processor without any context switch. Same is done when returning the result back to the client. The kernel looks for any idle client process and uses it without any context switch. If no idle domain can be found, then a single processor context switching is done.
+LRPC minimize the use of shared data structures which internally implements its locks, so no explicit lock is required for synchronization. LRPC implements the optimization by reducing the number of context switches by caching domains on idle processors. The kernel looks for the idle processor for the client request, and if found the request is routed to the processor without any context switch. Same is done when returning the result back to the client. The kernel looks for any idle client process and uses it without any context switch. If no idle domain can be found, then a single processor context switching is done.
 <br><br>
 
 ### Distributed Shared Memory – IVY
