@@ -191,12 +191,12 @@ For things like uninitialized data area, heap and the stack the vnode object are
 
 Program is running along, and now it hits some address which MMU kicks out, and reason of kicking out is either the address is out of range of address space, or it hits the non-resident page. When running, we don't know which case we have hit here, and all we know is the virtual address that needs to be served. We need first to determine if the address is valid for the process. To validate that we walk through each *vm_map_entry* and validate if address falls between start and end addresses of *vm_map_entry* region. If the address doesn't fall in any address ranges, then we hit segment fault.
 
-Let's say the address falls into the second *vm_map_entry* which is for initialized data area in Figure~\ref{fig:AddressSpace*, then the address belongs to some part of initialized data (in vnode). In order to go to vnode/*vm_object* to get that page we need to know where in the initialized area(in vnode) is an exactly logical page that we want.
+Let's say the address falls into the second *vm_map_entry* which is for initialized data area in Figure AddressSpace, then the address belongs to some part of initialized data (in vnode). In order to go to vnode *vm_object* to get that page we need to know where in the initialized area(in vnode) is an exactly logical page that we want.
 
 In vnode *vm_object* we want to know which page it maps to. If page is not present in list of pages which are pointed by vnode *vm_object* then it is responsibility of *vm_object* to allocate a new page get it filled either with file or get it zero etc. depending on kind of object *vm_object* it is. *vm_object* then put that new page into it's list and in the end return the pointer to that page.
 
 <mark>Problem</mark> In the above example, we had a page fault for initialized data region, and we brought the new page and mapped to *vm_object*, which eventually is part of *vmspace*. Given initialized data is supposed to be private mapping but in this case, we have mapped the page to vmspace, so any changes in page would reflect everywhere.
-<mark>Solution</mark> We need a mechanism where we associate a copy of a page instead of the original page. The mechanism is called **shadow object*.
+<mark>Solution</mark> We need a mechanism where we associate a copy of a page instead of the original page. The mechanism is called **shadow object**.
 
 <br>
 ![center-aligned-image](/images/shadowobject.png)
