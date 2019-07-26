@@ -135,7 +135,7 @@ Address space
 
 
 
-Process starts executing and immediately after it is loaded into the memory, we have four *vm_map_entry* blocks. First *vm_map_entry* component is for Text, the second component is for Initialized data, third is for Uninitialized data, and the last component is for Stack. We don't have any shared libraries mapped here yet. All of the data structure above is a machine-independent data structure with two exceptions. First one being *vm_pmap* member of *vmspace*, which is physical map is *machine dependent. It is the physical table hardware which is used to translate from virtual to physical memory. The second one is *vm_page*, which has a little bit of structure in it, which is machine-dependent.
+Process starts executing and immediately after it is loaded into the memory, we have four *vm_map_entry* blocks. First *vm_map_entry* component is for Text, the second component is for Initialized data, third is for Uninitialized data, and the last component is for Stack. We don't have any shared libraries mapped here yet. All of the data structure above is a machine-independent data structure with two exceptions. First one being *vm_pmap* member of *vmspace*, which is physical map is *machine dependent*. It is the physical table hardware which is used to translate from virtual to physical memory. The second one is *vm_page*, which has a little bit of structure in it, which is machine-dependent.
 
 <br><br>
 ### vmspace
@@ -178,7 +178,7 @@ The first vnode/object represents the executable file. The starting address is t
 For things like uninitialized data area, heap and the stack the vnode object are called anonymous objects. Anonymous objects are unlike other objects where the file is backing it and creates itself.
 
 ![center-aligned-image](/images/UMLClassDiagram-vm_object.png)
-![center-aligned-image](/images/UMLClassDiagram-vm_page.png)
+![vm_page_img](/images/UMLClassDiagram-vm_page.png)
 
 <br><br>
 ### Data Members - vmspace
@@ -189,7 +189,7 @@ For things like uninitialized data area, heap and the stack the vnode object are
 <br><br>
 ## Page Faults and VM Data Structures
 
-Program is running along, and now it hits some address which MMU kicks out, and reason of kicking out is either the address is out of range of address space, or it hits the non-resident page. When running, we don't know which case we have hit here, and all we know is the virtual address that needs to be served. We need first to determine if the address is valid for the process. To validate that we walk through each *vm_map_entry* and validate if address falls between start and end addresses of *vm_map_entry* region. If the address doesn't fall in any address ranges, then we hit segment fault.
+Program is running along, and now it hits some address which MMU kicks out, and reason of kicking out is either the address is out of range of address space, or it hits the non-resident page. When running, we don't know which case we have hit here, and all we know is the virtual address that needs to be served. First, we need to determine, if the address is valid for the process. To validate that we walk through each *vm_map_entry* and validate if address falls between start and end addresses of *vm_map_entry* region. If the address doesn't fall in any address ranges, then we hit segment fault.
 
 Let's say the address falls into the second *vm_map_entry* which is for initialized data area in Figure AddressSpace, then the address belongs to some part of initialized data (in vnode). In order to go to vnode *vm_object* to get that page we need to know where in the initialized area(in vnode) is an exactly logical page that we want.
 
@@ -199,10 +199,10 @@ In vnode *vm_object* we want to know which page it maps to. If page is not prese
 <mark>Solution</mark> We need a mechanism where we associate a copy of a page instead of the original page. The mechanism is called **shadow object**.
 
 <br>
-![center-aligned-image](/images/shadowobject.png)
-
+![shadowobject](/images/shadowobject.png)
 
 As shown in Figure instead of mapping page from *vm_object* we allocate new *vm_object* i.e. shadow object and then copy the data to shadow object which then maps to *vmspace*.
+
 
 <br><br>
 ### Shadow Objects
