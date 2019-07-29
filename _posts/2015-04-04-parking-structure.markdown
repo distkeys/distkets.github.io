@@ -11,7 +11,7 @@ tags:
 - '2015'
 ---
 
-<br><br>
+
 ## Designing Parking Structure
 
 {% include toc %}
