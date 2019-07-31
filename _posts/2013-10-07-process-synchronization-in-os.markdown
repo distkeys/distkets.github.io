@@ -9,6 +9,7 @@ tags:
 ---
 {% include toc %}
 
+<br>
 ### What is a Process?
 
 Operating system(OS) objective is to keep as many as of the computer resources as busy as possible. It is used to keep track of all the things an OS must remember about the state of the user program.
@@ -28,7 +29,7 @@ Thread is a child of process, and hence, it uses resources of process. Theoretic
 
 Once there are multiple threads, they are going to ask for the same resource at the same time. For example, if two children are in one room, then they always fight for the same toy. Same applies to threads.
 
-
+<br><br>
 ### 3 Issues with Sharing
 1. How to Share data?
 2. How to ensure threads in a process, executes one at a time?
@@ -36,7 +37,7 @@ Once there are multiple threads, they are going to ask for the same resource at 
 
 To understand it better, lets take a real world example.
 
-
+<br><br>
 ### Carl’s Jr. Restaurant
 Process
 
@@ -63,7 +64,7 @@ More formally there are three types of solution categories
 2. Software Primitives
 3. Concurrent programming construct
 
-
+<br><br>
 ### Algorithmic approach
 The algorithmic approach to process synchronization does not use any assistance from the computer architecture or the OS kernel. Instead it uses an arrangement of logical conditions to satisfy the desired synchronization requirements. <a href="http://books.google.com/books/about/Operating_Systems.html?id=kbBn4X9x2mcC" target="_blank">[Dhamdhere]</a>
 
@@ -73,11 +74,11 @@ The algorithmic approach to process synchronization does not use any assistance 
 * n process algorithm
 * <a href="http://en.wikipedia.org/wiki/Lamport's_bakery_algorithm" target="_blank">Bakery's Algorithm</a>
 
-
+<br><br>
 ### Software Primitives
 A set of software primitives for mutual exclusion, e.g., Semaphore, Locks, etc. were developed to overcome the logical complexity of algorithmic implementations. This is implemented using some special architectural features of computer systems. However, ease of use and correctness remained the major obstacle in the development of large concurrent systems.
 
-
+<br><br>
 ### Semaphores
 It is a shared integer variable with non-negative values that have initialization, wait and signal as a indivisible operation.
 
@@ -92,7 +93,7 @@ class Semaphore {
 
     private:
 	int value;
-	List *waitQueue;
+	Queue *waitQueue;
 	char *name;
 };
 {% endhighlight %}
@@ -102,7 +103,7 @@ class Semaphore {
 Semaphore(char * debugName, int initialValue) {
     name      = debugName;
     value     = initialValue;
-    waitQueue = new List;
+    waitQueue = new Queue;
 }
 {% endhighlight %}
 
@@ -150,6 +151,7 @@ Semaphore::V() {
 }
 {% endhighlight %}
 
+<br><br>
 ### Locks
 The basic idea is to close/acquire a lock at the start of critical section or an indivisible operation and open/release it at the end of the critical section or the indivisible operation.
 
@@ -171,7 +173,7 @@ class Lock {
 
     private:
 	char*   name;
-	List*   lockWaitQueue;
+	Queue*   lockWaitQueue;
 	bool    lockFree;
 	Thread* currentLockThread;
 };
@@ -183,7 +185,7 @@ Lock::Lock(char * debugName) {
     name              = debugName;
     currentLockThread = NULL;
     lockFree          = TRUE;
-    lockWaitQueue     = new List;
+    lockWaitQueue     = new Queue;
 }
 {% endhighlight %}
 
@@ -252,6 +254,7 @@ bool Lock::isHeldByCurrentThread() {
 }
 {% endhighlight %}
 
+<br><br>
 ### Concurrent Programming Construct
 Locks can only solve mutual exclusion problem, they can not solve sequencing problem. We need another mechanism i.e. Monitors
 
@@ -263,6 +266,7 @@ Monitors have 3 parts
 2. 1 or more condition variables for sequencing
 3. Monitor variables to make sequencing decisions i.e. Shared data
 
+<br><br>
 ### Condition Variables
 Each condition variable is only associated with one lock.
 
@@ -280,7 +284,7 @@ class Condition {
 
     private:
 	char* name;
-	List* cvQueue;
+	Queue* cvQueue;
 	Lock* cvLock;
 };
 {% endhighlight %}
@@ -288,7 +292,7 @@ class Condition {
 {% highlight c linenos %}
 Condition::Condition(char * debugName) {
     name    = debugName;
-    cvQueue = new List;
+    cvQueue = new Queue;
     cvLock  = NULL;
 }
 {% endhighlight %}
@@ -354,6 +358,7 @@ void Conditon::signal(Lock * conditionLock) {
 }
 {% endhighlight %}
 
+<br><br>
 ### Producer-Consumer Problem
 
 Lets consider we have infinite buffer
@@ -390,6 +395,62 @@ while (true) {
     monitorLock.Relase();
 }
 {% endhighlight %}
+
+<br><br>
+### Producer-Consumer Print FooBar Problem
+{% highlight c++ linenos %}
+#include <mutex>
+#include <condition_variable>
+
+std::mutex mtx;
+std::condition_variable cv;
+
+int produced = 0;
+
+class FooBar {
+private:
+    int n;
+
+public:
+    FooBar(int n) {
+        this->n = n;
+    }
+
+    void printFoo() { cout << "Foo"; }
+    void printBar() { cout << "Bar"; }
+
+    void foo(function<void()> printFoo) {
+        std::unique_lock<std::mutex> lck(mtx);
+
+        for (int i = 0; i < n; i++) {
+            if(produced == 1){
+              cv.wait(lck);
+            }
+
+            printFoo();
+
+            produced = 1;
+            cv.notify_one();
+        }
+    }
+
+    void bar(function<void()> printBar) {
+        std::unique_lock<std::mutex> lck(mtx);
+
+        for (int i = 0; i < n; i++) {
+            if(produced == 0) {
+                cv.wait(lck);
+            }
+
+            printBar();
+
+            produced = 0;
+            cv.notify_one();
+        }
+    }
+};
+{% endhighlight %}
+
 
 ### Recommended reading
 
