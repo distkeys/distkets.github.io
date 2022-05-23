@@ -587,3 +587,121 @@ There are uplifting advantages to visualizing and practicing to ensure you get y
 
 <hr style="border-top: 1.5px dotted black"/><br>
 
+<br><br>
+
+## CHAPTER 9  CONVEYING YOUR ANSWERS TO DIFFERENT PERSONALITY TYPES
+
+<br><br>
+### THE DIRECTOR – Who Tony Alessandra Labels “The Great Initiator”
+- These are extrovert, task-orientated people often found in positions of power.
+- The most important thing for the Director personality is getting the job done and hitting the right bottom line. This person tends to be direct, competitive and can appear impatient.
+
+
+<br><br>
+### THE THINKER – Who Tony Alessandra labels “The Great Analyser”
+- Accuracy and detail are important to Thinkers. They are more concerned with getting the job done properly the first time round than with anything else. They tend to focus more on the task itself than the people involved in it.
+- Thinkers don't want to be rushed into making decisions. They like time to reflect while utilizing their analytical skills. They will only feel comfortable making a decision when absolutely satisfied that all their concerns have been covered. Remember this as Bill Gates is carefully quizzing you.
+- When answering a Thinker's questions, be aware that they want very specific, detailed information and a methodical approach with evidence and proof. Thinkers don't typically exhibit sparkling personalities, but they can be deeply insightful.
+
+
+<br><br>
+### THE SOCIALIZER – Who Tony Alessandra Labels “The Great Talker”
+- In communication terms, the Socializer can be most influenced by testimonials and stories that show the results of other people's experiences. So, picking the right fascinating examples is especially important when you're answering questions from a Socializer.
+- The way to connect with Socializers like Brian Mulroney is to work on the fact that they can't resist telling and listening to stories. So make sure you include engrossing stories and captivating real-life examples as a key part of your great answers to them. Remember this when you answer Bill Clinton's questions.
+- Whether you're dealing with Vladimir Putin, Bill Clinton, Bill Gates, John Major or Fred or Frederika from the accounts department, there's great value in ensuring that your answers are formulated and delivered in the way that will best satisfy and impress them– and help you move towards that win/win outcome you're seeking.
+
+<hr style="border-top: 1.5px dotted black"/><br>
+<br><br>
+
+
+## CHAPTER 10  GREAT ANSWERS FOR PROSPECTS
+
+<br><br>
+### Asking Great Questions Paves the Way for Giving Great Answers
+- As far as possible, early on focus on what you need to know about them. This is where it's good to remember that you have two ears and one mouth, and that using them in proportion during your conversations is advantageous.
+- You need to establish what it is out of all your offerings that can potentially be most useful to them. The key to discovering this can be found by asking more about them.
+
+
+<br><br>
+### Guidance on That “What Do You Do?” Question
+- So, before answering the question “What do you do?”, you need to think about what it is you do that could potentially be of interest to other people to help formulate your best possible answer.
+- Telling people how you can benefit them is a key part of giving great answers to questions from prospects.
+
+
+<br><br>
+### Answering the Elevator Question
+- Because time is limited, you need to have a straight-to-the-point elevator introduction ready for the occasion.
+- You ideally need a short, medium and longer version. That's something like a ten-second version, a thirty-second version and a sixty-second version.
+- The ten-second version is a headliner when you are on a one-floor elevator ride or in a networking conversation, which requires a succinct introduction. But even in ten seconds you still have the opportunity to say what you can do for others. If they ask for your business card before they get out of the elevator or go to meet the next person, then you've done well! If they call you later, you've done even better!
+- The thirty-second version is ideal for those informal networking gatherings where it's helpful to give a bit more information to arouse interest and provide a potential hook – by saying something intriguing – to encourage them to ask more. This version is also useful if you have to introduce yourself at the start of one of those exploratory business meetings between two or more firms, where you're getting to know others around the table to see what business or collaboration might be possible.
+- The sixty-second version is typically for more formal situations. It's like a mini-presentation. It can be used in the official opening part of some networking events, where they allocate a minute for you to stand up and answer the “What do you do?” question. In some places – such as at Business Network International breakfast meetings – they actually time you and a bell or buzzer sounds at the sixty-second mark. It's amazing how much you can pack into a minute – typically more than you originally think – if it's well planned. The aim is to say just enough so that the right people will come up to ask more later.
+- Never speed through your sixty-second talk. If you have too much packed in, you and your audience are much better served if you take a bit out rather than race through it, which can undermine your authority.
+
+
+
+<br><br>
+### Structuring Your Self-Introduction
+- The introduction, by its nature, doesn't have time to reveal everything. But if you do it well there is enough for the right target to be motivated to want to ask you more.
+- The ideal is to deliver your introduction with “planned spontaneity”, so that it's practiced enough to be smooth and flowing but not so much so that it sounds over-planned or over-rehearsed. Ideally it should come across in a way that sounds almost as though it just popped into your head.
+
+
+<hr style="border-top: 1.5px dotted black"/><br>
+<br><br>
+
+
+## CHAPTER 15  GREAT ANSWERS IN PRESENTATIONS, AT EVENTS AND IN MEETINGS
+
+You're doing what all those on speaking platforms should aspire to do. You're not just being a mere deliverer of information – you're being an enlightener. You're being an educator. And you're being an audience shifter. You're pointing your audience members where they need to head in future and giving them inspired guidance on how to get there.
+
+
+<br><br>
+### Ensuring Your Presentation Inspires Those Questions
+- A big part of the challenge is that you don't just have to generate stimulating questions, you have to give answers that go beyond merely satisfying the question asker. You have to come up with answers that ideally work for every other member of the audience as well.
+- In the case of getting no questions, it probably means you haven't forewarned or inspired your audience properly. In the case of a tough question, where you have nothing useful to say it probably means you haven't prepared properly.
+
+
+<br><br>
+#### Ensuring Your Audience is Inspired to Ask
+- Just as throughout a highway network there's more than one “signpost” to an important place, ideally you will signpost the Q&A session several times in at least a couple of ways – thereby building expectations that a fantastic opportunity to pick your brain is lurking over the horizon. Apart from making an initial announcement about the Q&A session, when you touch on a particularly fascinating area of your subject you can further prompt your audience by saying “when it's time for questions, you might want to ask more about this”. You need to have enough signposts and enough captivating material so that at least some audience members will be salivating at the prospect of asking you something.
+- Also, if there's a particular reason to stay away from any aspect of the subject then signal this beforehand. For example, if the head of your company is speaking after you then you might want to suggest that any questions on company policy be saved for your leader. Questioners, being human, won't always stick to “the rules” you lay down. But the good thing about mentioning the rules first is that it is then much easier to remind the miscreant questioner or speech maker that they're going against what you'd set out earlier – rather than introducing a rule on the spot and looking as though you've done it just to avoid their question.
+- With the Q&A session in mind, one thing to be aware of when crafting your talk to inspire questions is that audiences don't typically just want a whole lot of facts on the designated topic. They want your take on it.
+- There are things you can and should do to make sure that you get questions in the right way, to fuel the session.
+
+
+
+
+<br><br>
+### Integrating Your Presentation and the Q&A Session
+- As you now know, answering questions is not just a chance to deliver facts. It's also an opportunity to convey a message or a series of messages. It is exactly the same with presentations.
+- Putting the two elements together allows you to have more control over the Q&A part. And the key thing here is to take control of it. You are there to serve your audience, but taking control of the questions part in an enlightened way is done in their best interests as well as yours.
+- “What is it you want your audience to be thinking or doing or feeling at the end?” Once the answer to this is established, then everything in the presentation should go towards achieving it.
+
+
+<br><br>
+### Set Out the Question Guidelines Early
+- I advocate having a “roadmap” section in talks that outlines where things will be going in both keynotes and workshops. Typically this roadmap should be unveiled fairly close to the beginning, but not absolutely at the start. It's usually better to place it a few minutes in, after you have delivered a profound attention-grabbing opening. Audiences tend to like an early roadmap because, just as on a scenic bus tour, they want to know something about the destination you'll be taking them to and what the points of interest will be along the way. Then, when they get to each point, they feel reassured and excited that they're exactly where you said they would be. This also applies to the timing and any rules about questions. In the roadmap section, tell them whether you would welcome questions at any point throughout or whether you would prefer them to keep their questions for a designated Q&A session – and if so, when that will be.
+
+- In a keynote it's especially important to endeavour to set out the guidelines before the first question is lobbed at you. Then you can rightfully say that you'll come to that point in the Q&A session – or that the point will be covered further into the talk. As your talk is hopefully carefully structured, you don't want to have to reorder it on the run just because of a random question. So you can acknowledge the question and say you'll answer it at the appropriate point. You can even ask the questioner to remind you in the Q&A session if they haven't received the information or opinion they want. Audience members will generally be happy that you're sticking to what you said you would do. In this way you get to deal with questions at a point when you have built up that shared understanding of the topic with your audience, so everyone is in a better position to appreciate both a good question and your great answer.
+
+- As to the timing of questions in a keynote, my recommendation is normally to have the Q&A session near the end but not absolutely at the end. The advantage of this is that you – as the speaker – get to keep control of those vital last words at the close of your time on the platform, which guides your audience towards what you want them thinking, doing and feeling at this vital concluding moment. If you have the Q&A session at the very end, then your final point will finish on whatever topic you're asked about last. However insightful the final question is, it may not fit with what's best for you to conclude on for that audience on that topic.
+
+- As many people are reluctant to ask a question at the start of the Q&A session, it can be wise to have someone lined up to ask that first question. It may be someone who asked you a question privately earlier in the day, or someone you know is good at confidently asking pertinent questions. As a back-up, in case there are no immediate volunteers, you may also want to have a couple of questions in mind yourself that you can throw in by prefacing them with “I'm often asked. . .” or “Before I began someone asked. . .” and answer these questions. This will hopefully warm things up for other questions to flow.
+
+
+<br><br>
+### Answers for Your Entire Audience
+- The challenge is to talk to the questioner in such a way that everything is relevant and engaging to everyone in the room and, where there's a live hook-up, electronically beyond.
+- This should be reflected in your eye contact. While listening to the question, it's right to focus just on the person asking it – and this will help ensure you listen as carefully as you should. But when it comes to your answer, make a point of allowing your eye contact to roam around the whole audience to ensure they know your answer is for them as well. When there's a virtual audience outside the room, look down the camera lens periodically to ensure your remote participants feel included.
+- you should normally aim to capitalize on the question, however narrow, and make a response that will involve and captivate the wider audience. Your lifeline here is the “specific-to-general” approach.
+- You can use the specific-to-general technique to underpin an answer following the ABCDE formula. So very briefly answer or acknowledge the specific question, but then use the bridge to widen things. A bridging line could be “What will interest everybody here is. . .” or “To broaden the point then. . .” or “To give you an answer in a wider context. . .” The content of your message should be something that has relevance for the whole audience. Then, when you dangle an example, pick something from your treasure chest of case studies and stories that will appeal to all.
+
+- When you're in a situation where not everyone in the audience may have heard a question then it's good to repeat it, though don't repeat questions routinely unless poor acoustics or microphone problems make this necessary. Normally, if you don't understand the question, then immediately invite the asker to clarify it so your grasp of the question is clear.
+- not all questions on big occasions are brilliantly worded. So if it's a sloppy or unclear question, you can take the opportunity to reframe it, saying something like: “I take it that what you're essentially asking is. . .” and proposing a pithier, tighter version of the question in your own words before answering it.
+- If the question is one of those rambling, multi-pronged ones, which is effectively a series of questions, then you're entitled to focus predominantly on the prong that suits you best – and that you judge will be of most interest to your audience. And if, due to the asker's incoherence, it will be too exhausting for everyone to ask a series of clarification questions, you might find it better to respond to a fragment of the question that you do understand. It can be a response like: “I'm sorry I can't quite grasp every detail of your question, but I would like to respond to your reference to X. . .” This can be a useful technique for any question that's too convoluted to follow. In the interests of keeping the show going, it can be best to use a part of the question you did grasp as a prompt to say something helpful on that aspect.
+- One thing to avoid doing too often is to praise the question. “That's a good question” has become a highly repetitive cliché. When the question is a tough one it can sound too deferential to the asker, as if you are groveling before them. And praising the question is a particularly dangerous thing to do with a highly critical question.
+- Another thing to avoid in most cases is saying “Have I answered your question?” at the end. Occasionally it may be appropriate, but in most cases it signals unnecessary uncertainty. Because you are the one who is answering the questions, you are in the position of authority. So unless there is particular reason to display uncertainty, it's better to confidently and profoundly say what you know to be true and say it in a way that projects confidence in its value. If the audience feels that you haven't answered, they will let you know!
+- Audiences notice when you do it well – especially when the questions are tough. So with the right planning, preparation and practice, it's well worth embracing opportunities to get yourself out there in front of challenging Q&A sessions to enlighten, enthral and bedazzle with your great answers, not just for the individual questioners but for everyone.
+
+
+<hr style="border-top: 1.5px dotted black"/><br>
+<br><br>
