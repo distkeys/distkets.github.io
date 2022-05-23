@@ -45,7 +45,7 @@ https://www.goodreads.com/book/show/26534291-great-answers-to-tough-questions-at
 - You are in the position of the giver. You can be generous. You should give of your time, expertise and effort. And in this way you also shift the focus to where you want it – the place where your interests and those of your questioner and any wider audience overlap.
 
 
-</br></br></br>
+<br><br><br>
 
 ## CHAPTER 2 CRAFTING THE RIGHT MESSAGE TO UNDERPIN EVERY ANSWER
 
@@ -109,4 +109,57 @@ In this analogy, the leaves are the words that make up our answers. This is what
 - A great message with a strong emotional component also has the stickiness factor, so your audience will remember it long after it's been delivered.
 - If you come up with a fantastically snappy, powerful and memorable way to word the message, that's marvelous.
 
-</br></br></br>
+<br><br><br>
+
+
+## CHAPTER 3  HARNESSING THE POWER OF STORIES
+
+### Great Stories Prompt Change
+
+- Stories touch people emotionally. They can comfort. They can persuade. They can inspire.
+
+
+### Painting Pictures in the Minds of Your Audience
+
+- When you are telling stories you are, on the face of it, sharing a carefully constructed series of words with your audience. But what is really happening if you are doing it well is that you're using those words to paint moving pictures in the minds of your listeners. If you're really good you will be using these words and pictures to direct the emotions in the hearts of your audience.
+- When you do it supremely well you get people coming out with responses like “I can see what you mean”. What they are effectively saying, of course, is that they can visualize it in their imagination.
+- But the proof points can also consist of relevant facts and figures. They can be insightful observations. They can be metaphors or analogies.
+- They especially need to use stories and examples if they are dealing with the abstract. This is because abstract concepts, important though they often are, need to be illustrated in our minds to enable audiences to picture what is meant.
+
+
+
+### Going Up and Down the Abstract Ladder
+
+His “Ladder of Abstraction” concept identifies the fact that there are different levels of language used that range from the general to the specific.
+
+On the bottom rungs of the ladder are concrete things, which are easy to identify and see.
+
+On the top rungs of the ladder are abstract concepts that are bigger, more ethereal and can be harder to envisage.
+
+Highly effective communicators tend to metaphorically move up and down the ladder with considerable frequency. This helps to keep their audiences fully in the picture by allowing them to grasp both the general and the specific.
+
+If someone gets stuck at the top of the ladder for too long they are in danger of talking as if viewing the world from that mythical ivory tower – making it hard for listeners to picture what they are thinking.
+
+If someone gets stuck at the bottom of the ladder for too long they can bury their listeners in a heap of details, with the audience struggling to see how they fit together to make sense. They give too many fragments of the situation on the ground and we don't get the much-needed panoramic overview.
+
+
+### Taking a Journey Down That Ladder
+
+So that's what needs to happen for your listeners when you give an answer that spells out a general concept. You should then take them down the ladder and present them with an example that is sufficiently vivid that they can see, hear and feel it – and possibly even care about it as well.
+
+
+### Using Stories to Grab and Wow Your Audience
+
+Here's what TRUTH stands for:
+- **T = Topical.** - If the case study runs past its sell-by date and is no longer significant to the latest developments, then ruthlessly toss it out of your treasure chest and replace it with a new one.
+- **R = Relevant.** - Most people tend to be more interested in what's happening nearby. A story that has local proximity is bound to have greater impact with your audience in that area.
+- **U = Unusual.** - Where you can, look for the exceptional story that stands out by being unusual and has the biggest surprise or wow factor. Be aware that sometimes, when looking for the right example, it's beneficial to seek out a typical rather than an extraordinary one. However, you still want to gather enough of the right colourful and fascinating details about it so that it will stick in the audience's mind.
+- **T = Trouble.** - When choosing examples for your treasure chest, it may be more a case of picking instances where your organization's product or service or insights helped overcome a group's or an individual's brush with some kind of trouble.
+- **H = Human** - So it can be important to show in a success story that what you or your organization did had a positive emotional outcome for one or more people.
+
+
+> Make Your Stories Pass the “So What?” Test
+
+<hr style="border-top: 1.5px dotted black"/><br>
+
+<br><br><br>
